@@ -1,0 +1,50 @@
+.navbar ul{
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+
+.heading{
+    font-size: 1.6rem;
+}
+.aboutme{
+    flex-direction: column;
+}
+.aboutme h2{
+    text-align: center;
+}
+.aboutme img{
+    
+    height: 300px;
+    width: 200px;
+   padding: 0px 15px;
+}
+.aboutme p{
+    padding: 30px;
+    margin: auto;
+}
+#message{
+    width: 40%;
+    height: 200px;
+}
+.box{
+    height: 190px;
+    width: 350px;
+    background-color: rgb(255, 255,255,0.1);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+.box h2{
+    color:snow;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-family: 'Ubuntu',sans-serif;
+}
+.box p{
+    color: white;
+    font-family: 'Poppins';
+    
+}

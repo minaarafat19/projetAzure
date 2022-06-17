@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:ital,wght@0,500;0,700;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    font-family: 'Ubuntu',sans-serif;
+
+    
+
+}
+.navbar::before{
+    content: "";
+    position: absolute;
+    background-color:rgb(0, 0, 0 , 0.5);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    
+}
+.navbar ul li{
+    font-size: 1.1rem;
+}
+.navbar ul li a{
+    padding: 5px 20px;
+    text-decoration:none;
+    color: white;
+    
+}
+.navbar ul li a:hover{
+    border-bottom: 2px solid grey;
+
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0,0,0.5);
+    color: whitesmoke;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('image1.jpg') no-repeat center center/cover;
+    height: 700px;
+    width: 100%;
+    z-index: -1;
+
+}
+.heading{
+    color: white;
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    transform: none;
+}
+#PortFolio{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+#education{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000dc;
+}
+#education h1{
+    margin: 60px;
+    
+}
+.columns{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 50px;
+}
+.box{
+    height: 200px;
+    width: 500px;
+    background-color: rgb(255, 255,255,0.1);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+.box h2{
+    color:snow;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    font-family: 'Ubuntu',sans-serif;
+}
+.box p{
+    color: white;
+    font-family: 'Poppins';
+    
+}
+#aboutme{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    height: 100%;
+    
+   
+}
+#aboutme h1{
+    margin: 10px;
+    color: black;
+    font-family: 'Ubuntu',sans-serif;
+
+}
+.aboutme{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.aboutme img{
+    height: 500px;
+    width: 400px;
+   padding: 0px 30px;
+}
+.aboutme p{
+    margin-right: 200px;
+    padding-right: 100px;
+ 
+  
+}
+.name{
+    padding: 10px;
+
+}
+.name h2{
+    font-family: 'Poppins';
+    
+}
+.name p{
+    
+    font-family: 'Poppins';
+
+}
+
+#contacte{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+#contacte h1{
+    margin: 50px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+    padding: 15px 20px;
+    margin: 15px;
+    width: 20%;
+    border: none;
+    outline: rgb(32, 21, 182);
+    border-radius: 25px;
+
+}
+#message{
+    margin: 15px;
+    padding: 5px;
+    border-radius: 23px;
+    width: 30%;
+    height: 10%;
+}
+#submit{
+    padding: 15px 20px;
+    margin: 30px;
+    width: 10%;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+}
+#submit:hover{
+    background-color: rgb(21, 18, 160);
+    color:white;
+    cursor: pointer;
+}
